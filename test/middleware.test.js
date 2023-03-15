@@ -68,3 +68,4 @@ test("Test Response Middleware Time", async () =>{
     expect(response.get("X-Powered-By")).toBe("Ahmad Dzulfikar Fauzi");
     expect(response.text).toContain("Hello , Today is");
 });
+
